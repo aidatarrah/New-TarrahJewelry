@@ -1,8 +1,9 @@
+/*
 const toggle = document.querySelector(".toggle");
 const menu = document.querySelector(".menu");
 const items = document.querySelectorAll(".item");
 
-/* Toggle mobile menu */
+/* Toggle mobile menu 
 function toggleMenu() {
   if (menu.classList.contains("active")) {
     menu.classList.remove("active");
@@ -13,7 +14,7 @@ function toggleMenu() {
   }
 }
 
-/* Activate Submenu */
+/* Activate Submenu 
 function toggleItem() {
   if (this.classList.contains("submenu-active")) {
     this.classList.remove("submenu-active");
@@ -25,7 +26,7 @@ function toggleItem() {
   }
 }
 
-/* Close Submenu From Anywhere */
+/* Close Submenu From Anywhere 
 function closeSubmenu(e) {
   let isClickInside = menu.contains(e.target);
 
@@ -33,7 +34,7 @@ function closeSubmenu(e) {
     menu.querySelector(".submenu-active").classList.remove("submenu-active");
   }
 }
-/* Event Listeners */
+/* Event Listeners
 toggle.addEventListener("click", toggleMenu, false);
 for (let item of items) {
   if (item.querySelector(".submenu")) {
@@ -42,3 +43,29 @@ for (let item of items) {
   item.addEventListener("keypress", toggleItem, false);
 }
 document.addEventListener("click", closeSubmenu, false);
+//
+*/
+
+// new toggle // 
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav__menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+
+var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);

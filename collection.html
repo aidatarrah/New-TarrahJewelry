@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Earrings</title>
+    <title>Earrings Rings</title>
 
     <link rel="stylesheet" href="index.css">
 
@@ -19,138 +19,145 @@
 <body>
 
                         <!-- Top Nav -->
-   <nav>
-    <ul class="menu">
-      <li class="logo"><a href="home.html"><img class="logo" src="img/tarrah.png"></a></li>
-      <li class="item"><a href="home.html">Home</a></li>
-      <li class="item has-submenu dropdown">
-        <a tabindex="0">Bridal Jewelry</a>
-        <ul class="submenu dropdown-content">
-         <li class="subitem"><a href="engagement.html">Engagement</a></li>
-         <li class="subitem"><a href="#">Men Wedding</a></li>
-         <li class="subitem"><a href="#">Women Wedding</a></li>
-       </ul>
-     </li>
-     <li class="item has-submenu dropdown">
-       <a tabindex="0">Collection</a>
-       <ul class="submenu dropdown-content">
-         <li class="subitem"><a href="#">Rings</a></li>
-         <li class="subitem"><a href="#">Necklaces</a></li>
-         <li class="subitem"><a href="#">Earrings</a></li>
-         <li class="subitem"><a href="#">Bracelets</a></li>
-       </ul>
-    </li>
-    <li class="item"><a href="#">Custom Order</a></li>
-     <li class="item button"><a href="#">My Cart</a></li>
-     <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-   </ul>
-</nav>
+   <header class="header">
+      <nav class="navbar">
+  
+            <a href="home.html"><img class="nav__logo" src="img/tarrah.png"></a>
+         
+            <ul class="nav__menu">
+              <li class="nav__item">
+                  <a href="#" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                  <a href="#" class="nav__link">Engagement Rings</a>
+              </li>
+              <li class="nav__item">
+                  <a href="#" class="nav__link">Earrings</a>
+              </li>
+              <li class="nav__item">
+                  <a href="#" class="nav__link">Custom Order</a>
+              </li>
+          </ul>
+  
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+  
+      </nav>
+    </header>
+
+<!-- main engagement ring-->
 
 <div>
-
-    <h2 class="eng-titile">Earrings</h2>
-
-
+    <h1 class="page__titile">Earrings</h1>
 </div>
-    
     <hr>
-                        <!-- GALLERY -->
 
-<div class="gallery-container">
-  <div class="row">
+                          <!-- Gallery -->
 
-    <div class="column">
-      <img src="img/collection/DOUBLE-small.jpg" alt="double square earring" class="pic1">
-      <img src="img/collection/double-square-on.jpg" alt="double square earring" class="pic-h">
-        <hr>
-        <div class="desc">Huggie Line Earrings<br><span>$780</span></div>
+  <div class="gallery">
+
+    <div class="gallery__row">
+                                      
+     <div class="gallery__column">
+      <img src="img/collection/DOUBLE-small.jpg" alt="double square earring" class="gallery__img">
+      <img src="img/collection/double-square-on.jpg" alt="double square earring" class="gallery__img--hover">
+      <hr>
+       <div class="gallery__title">
+         double square earring
+         <p class="gallery__title--price">$780</p>
+        </div>
+     
     </div>
-
-    <div class="column">
-      <img src="img/collection/Aqua-small.jpg" alt="Aquamarine Drop Earring" class="pic1">
-      <img src="img/collection/image_d162dfbc-f59f-4000-a706-2282cb3e4d34_1024x1024 copy.jpg" alt="Aquamarine Drop Earring" class="pic-h">
-        <hr>
-        <div class="desc">Aquamarine Drop Earring<br><span>$780</span></div>
+                                      
+    <div class="gallery__column">
+      <img src="img/collection/Aqua-small.jpg" alt="Aquamarine Drop Earring" class="gallery__img">
+      <img src="img/collection/image_d162dfbc-f59f-4000-a706-2282cb3e4d34_1024x1024 copy.jpg" alt="Aquamarine Drop Earring" class="gallery__img--hover">
+  <hr>
+      <div class="gallery__title">Aquamarine Drop Earring
+        <p class="gallery__title--price">$780</p>
+        </div>
     </div>
-
-    <div class="column">
-      <img src="img/collection/Huggie-Small.jpg" alt="Single Huggie Cuff" class="pic1">
-      <img src="img/collection/huggie-on.jpg" alt="Single Huggie Cuff" class="pic-h">
-        <hr>
-        <div class="desc">Huggie Line Earrings<br><span>$780</span></div>
+                                      
+    <div class="gallery__column">
+      <img src="img/collection/Huggie-Small.jpg" alt="Single Huggie Cuff" class="gallery__img">
+      <img src="img/collection/huggie-on.jpg" alt="Single Huggie Cuff" class="gallery__img--hover">
+  <hr>
+      <div class="gallery__title">Single Huggie Cuff
+        <p class="gallery__title--price">$780</p>
+        </div>
     </div>
-
-    <div class="column">
-      <img src="img/collection/Sun-Earring-Small.jpg" alt="double square earring" class="pic1">
-      <img src="img/collection/sun-on.jpg" alt="double square earring" class="pic-h">
-        <hr>
-        <div class="desc">Sun Diamond Earrings<br><span>$780</span></div>
+                                      
+    <div class="gallery__column">
+      <img src="img/collection/Sun-Earring-Small.jpg" alt="Sun Earring" class="gallery__img">
+      <img src="img/collection/sun-on.jpg" alt="Sun Earring"  class="gallery__img--hover">
+  <hr>
+      <div class="gallery__title">Sun Earring
+        <p class="gallery__title--price">$780</p>
+        </div>
     </div>
+                                      
+   </div>
+  </div>    
+     <!-- Footer -->
 
-  </div>
-</div>
+     <footer class="footer">
 
+      <section class="footer__main">
 
-
-                           <!-- Footer -->
-
-    <footer class="footer">
-
-        <section class="ft-main">
-  
-            <div class="ft-main-item">
-                <h2>Menu</h2>
-                <ul>
-                   <li>Collection</li>
-                   <li>Bridal</li>
-                   <li>Custom Orders</li>
-                </ul>
-            </div>
-  
-            <div class="ft-main-item">
-              <h2>Company</h2>
-              <ul>
-                 <li>About</li>
-                 <li>Mission</li>
-                 <li>Services</li>
-              </ul>
-           </div>
-  
-          <div class="ft-main-item">
-              <h2>Support</h2>
-              <ul>
-                 <li>Contact us</li>
-                 <li>Shipping</li>
-                 <li>Terms & Conditions</li>
-                 <li>Privacy Policy</li>
+          <div>
+              <ul class="footer__main footer__item">  
+                 <li class="footer__item--title">Menu</li>
+                 <li>Collection</li>
+                 <li>Bridal</li>
+                 <li>Custom Orders</li> 
               </ul>
           </div>
-  
-      
-          <div class="ft-main-item">
-              <h2>Social Media</h2>
-              <ul class="social-links">
-                <li><a target="_blank" href="https://www.instagram.com/blaustern_fotografie/">
-                  <i class="fab fa-instagram-square"></i>
-                </a> </li>
-                <li><a target="_blank" href="https://www.facebook.com/tarrahjewelry/">
-                  <i class="fab fa-facebook-square"></i>
-                </a> </li>
-              </ul>
-          </div>
-  
-  
-          <div class="emailInput">
-              <label for="email">Sign up for events</label>
-              <input type="email" id="email" pattern=".+@globex\.com" size="30" required>
-              <button class="btn-submit">submit</button>
-          </div>
-  
-      </section>
-  
-  
-        
-      </footer>
+
+          <div>
+            <ul class="footer__main footer__item">
+               <li class="footer__item--title">Company</li>
+               <li>About</li>
+               <li>Mission</li>
+               <li>Services</li>
+            </ul>
+         </div>
+
+        <div>
+            <ul class="footer__main footer__item">
+               <li class="footer__item--title">Support</li>
+               <li>Contact us</li>
+               <li>Shipping</li>
+               <li>Terms & Conditions</li>
+               <li>Privacy Policy</li>
+            </ul>
+        </div>
+
+    
+        <div>
+          <ul class="footer__main footer__item footer__social">
+              <li class="footer__item--title">Social Media</li>
+              <li><a class="footer__social--links" target="_blank" href="https://www.instagram.com/blaustern_fotografie/">
+                <i class="fab fa-instagram-square"></i>
+              </a> </li>
+              <li><a class="footer__social--links" target="_blank" href="https://www.facebook.com/tarrahjewelry/">
+                <i class="fab fa-facebook-square"></i>
+              </a> </li>
+           </ul>
+        </div>
+
+       
+        <div class=" footer__main footer__item emailInput">
+            <label for="email">Sign up for events</label>
+            <input type="email" id="email" pattern=".+@globex\.com" size="30" required>
+            <button class="btn-submit">submit</button>
+        </div>
+
+     </section>
+
+    </footer> 
   
         <script src="https://kit.fontawesome.com/xxxxxxxxxx.js" crossorigin="anonymous"></script>
   
